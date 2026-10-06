@@ -1,0 +1,43 @@
+# Azure Pipelines — deploy a Shiny app to Posit Connect
+#
+# Auth: Connect API key. Create a variable group named "RSC" (Pipelines > Library) holding:
+#   CONNECT_SERVER   base URL with a trailing slash, e.g. https://connect.example.com/
+#   CONNECT_API_KEY  Connect API key, marked secret (never committed to the repo)
+#
+# This repository is the public, customer-facing example (Azure DevOps public projects are retired,
+# so the public artifact lives on GitHub). Pipeline runs are validated in a private Azure DevOps
+# project that builds against this repo.
+
+trigger:
+  - main
+
+pool:
+  vmImage: 'ubuntu-24.04'
+
+container: posit/r-base:4.5.1-noble
+
+variables:
+  - group: 'RSC'
+  - name: CONTENT_DIRECTORY
+    value: app
+  - name: UNIQ_NAME
+    value: shiny-app-demo-cicd-azure
+
+steps:
+  - task: Bash@3
+    displayName: 'Build, test, and deploy to Connect'
+    inputs:
+      targetType: inline
+      script: |
+        apt-get update && apt-get install -y --no-install-recommends libcurl4-openssl-dev libssl-dev libxml2-dev curl jq
+        /bin/sh set-rspm.sh
+        rm -f .Rprofile
+        R -e 'install.packages(c("shiny","jsonlite","ggplot2","stringr","DT","rsconnect"))'
+        R -e 'rsconnect::writeManifest("$(CONTENT_DIRECTORY)")'
+        chmod +x ./deploy-to-connect.sh
+        /bin/bash deploy-to-connect.sh
+    env:
+      CONNECT_SERVER: $(CONNECT_SERVER)
+      CONNECT_API_KEY: $(CONNECT_API_KEY)
+      CONTENT_DIRECTORY: $(CONTENT_DIRECTORY)
+      UNIQ_NAME: $(UNIQ_NAME)
