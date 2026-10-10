@@ -14,7 +14,12 @@ trigger:
 pool:
   vmImage: 'ubuntu-24.04'
 
-container: posit/r-base:4.5.1-noble
+# Run the container as root: Azure Pipelines container jobs default to a
+# non-root user, but apt-get / RSPM config / install.packages need root in
+# the posit/r-base image.
+container:
+  image: posit/r-base:4.5.1-noble
+  options: --user 0:0
 
 variables:
   - group: 'RSC'
