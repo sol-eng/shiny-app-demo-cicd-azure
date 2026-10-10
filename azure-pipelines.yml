@@ -14,12 +14,11 @@ trigger:
 pool:
   vmImage: 'ubuntu-24.04'
 
-# Run the container as root: Azure Pipelines container jobs default to a
-# non-root user, but apt-get / RSPM config / install.packages need root in
-# the posit/r-base image.
-container:
-  image: posit/r-base:4.5.1-noble
-  options: --user 0:0
+# Azure Pipelines container jobs run as a NON-root user (and ignore
+# `options: --user 0:0` on Microsoft-hosted agents), so this pipeline avoids
+# apt/root: it installs packages from RSPM noble *binaries* into a writable
+# user library and fetches a static jq. curl is already present in the image.
+container: posit/r-base:4.5.1-noble
 
 variables:
   - group: 'RSC'
@@ -34,11 +33,15 @@ steps:
     inputs:
       targetType: inline
       script: |
-        apt-get update && apt-get install -y --no-install-recommends libcurl4-openssl-dev libssl-dev libxml2-dev curl jq
-        /bin/sh set-rspm.sh
-        rm -f .Rprofile
-        R -e 'install.packages(c("shiny","jsonlite","ggplot2","stringr","DT","rsconnect"))'
-        R -e 'rsconnect::writeManifest("$(CONTENT_DIRECTORY)")'
+        set -euo pipefail
+        export R_LIBS_USER="$PWD/.rlib"; mkdir -p "$R_LIBS_USER"
+        export PATH="$PWD/.bin:$PATH"; mkdir -p "$PWD/.bin"
+        # static jq (no root / no apt-get)
+        curl -fsSL -o "$PWD/.bin/jq" https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-amd64
+        chmod +x "$PWD/.bin/jq"
+        # RSPM __linux__/noble serves prebuilt binaries -> no compilation, no -dev headers
+        Rscript -e '.libPaths(Sys.getenv("R_LIBS_USER")); options(repos=c(CRAN="https://packagemanager.posit.co/cran/__linux__/noble/latest")); install.packages(c("shiny","jsonlite","ggplot2","stringr","DT","rsconnect"))'
+        Rscript -e '.libPaths(Sys.getenv("R_LIBS_USER")); rsconnect::writeManifest(Sys.getenv("CONTENT_DIRECTORY"))'
         chmod +x ./deploy-to-connect.sh
         /bin/bash deploy-to-connect.sh
     env:
