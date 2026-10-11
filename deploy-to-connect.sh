@@ -72,7 +72,6 @@ else
     echo "Created content: ${CONTENT}"
 fi
 
-echo "##vso[task.setvariable variable=CONTENT]${CONTENT}"
 
 # Upload the bundle
 UPLOAD=$(curl --silent --show-error -L --max-redirs 0 --fail -X POST \

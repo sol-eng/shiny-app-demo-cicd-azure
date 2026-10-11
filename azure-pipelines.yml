@@ -45,7 +45,7 @@ steps:
         rm -f .Rprofile
         # RSPM __linux__/noble serves prebuilt binaries -> no compilation, no -dev headers
         Rscript -e '.libPaths(Sys.getenv("R_LIBS_USER")); options(repos=c(CRAN="https://packagemanager.posit.co/cran/__linux__/noble/latest")); install.packages(c("shiny","jsonlite","ggplot2","stringr","DT","rsconnect"))'
-        Rscript -e '.libPaths(Sys.getenv("R_LIBS_USER")); rsconnect::writeManifest(Sys.getenv("CONTENT_DIRECTORY"))'
+        Rscript -e '.libPaths(Sys.getenv("R_LIBS_USER")); options(repos=c(CRAN="https://packagemanager.posit.co/cran/__linux__/noble/latest")); rsconnect::writeManifest(Sys.getenv("CONTENT_DIRECTORY"))'
         chmod +x ./deploy-to-connect.sh
         /bin/bash deploy-to-connect.sh
     env:
@@ -53,3 +53,4 @@ steps:
       CONNECT_API_KEY: $(CONNECT_API_KEY)
       CONTENT_DIRECTORY: $(CONTENT_DIRECTORY)
       UNIQ_NAME: $(UNIQ_NAME)
+      RENV_CONFIG_PPM_ENABLED: 'FALSE'

@@ -11,8 +11,8 @@
   },
   "packages": {
     "DT": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Type": "Package",
         "Package": "DT",
@@ -34,12 +34,19 @@
         "Maintainer": "Garrick Aden-Buie <garrick@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2025-09-02 22:00:06 UTC",
-        "Built": "R 4.5.0; ; 2026-08-12 19:49:26 UTC; unix"
+        "Built": "R 4.5.0; ; 2026-08-12 19:49:26 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "DT",
+        "RemotePkgRef": "DT",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "0.34.0"
       }
     },
     "R6": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "R6",
         "Title": "Encapsulated Classes with Reference Semantics",
@@ -61,12 +68,19 @@
         "Maintainer": "Winston Chang <winston@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2025-02-15 00:50:02 UTC",
-        "Built": "R 4.5.0; ; 2026-08-12 19:39:59 UTC; unix"
+        "Built": "R 4.5.0; ; 2026-08-12 19:39:59 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "R6",
+        "RemotePkgRef": "R6",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "2.6.1"
       }
     },
     "RColorBrewer": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "RColorBrewer",
         "Version": "1.1-3",
@@ -83,12 +97,19 @@
         "Repository": "RSPM",
         "Date/Publication": "2022-04-03 19:20:13 UTC",
         "Encoding": "UTF-8",
-        "Built": "R 4.5.0; ; 2026-08-12 19:39:47 UTC; unix"
+        "Built": "R 4.5.0; ; 2026-08-12 19:39:47 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "RColorBrewer",
+        "RemotePkgRef": "RColorBrewer",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "1.1-3"
       }
     },
     "Rcpp": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "Rcpp",
         "Title": "Seamless R and C++ Integration",
@@ -111,12 +132,19 @@
         "Maintainer": "Dirk Eddelbuettel <edd@debian.org>",
         "Repository": "RSPM",
         "Date/Publication": "2026-07-05 08:30:08 UTC",
-        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:59 UTC; unix"
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:59 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "Rcpp",
+        "RemotePkgRef": "Rcpp",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "1.1.2"
       }
     },
     "S7": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "S7",
         "Title": "An Object Oriented System Meant to Become a Successor to S3 and\nS4",
@@ -143,12 +171,19 @@
         "Maintainer": "Hadley Wickham <hadley@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2026-04-22 11:00:10 UTC",
-        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:59 UTC; unix"
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:59 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "S7",
+        "RemotePkgRef": "S7",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "0.2.2"
       }
     },
     "base64enc": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "base64enc",
         "Version": "0.1-6",
@@ -167,12 +202,19 @@
         "Repository": "RSPM",
         "Date/Publication": "2026-02-02 06:31:10 UTC",
         "Encoding": "UTF-8",
-        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:59 UTC; unix"
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:59 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "base64enc",
+        "RemotePkgRef": "base64enc",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "0.1-6"
       }
     },
     "bslib": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "bslib",
         "Title": "Custom 'Bootstrap' 'Sass' Themes for 'shiny' and 'rmarkdown'",
@@ -200,12 +242,19 @@
         "Maintainer": "Carson Sievert <carson@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2026-08-04 00:40:02 UTC",
-        "Built": "R 4.5.0; ; 2026-08-12 19:47:36 UTC; unix"
+        "Built": "R 4.5.0; ; 2026-08-12 19:47:36 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "bslib",
+        "RemotePkgRef": "bslib",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "0.12.0"
       }
     },
     "cachem": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "cachem",
         "Version": "1.1.0",
@@ -227,12 +276,19 @@
         "Maintainer": "Winston Chang <winston@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2024-05-16 09:50:11 UTC",
-        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:41:40 UTC; unix"
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:41:40 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "cachem",
+        "RemotePkgRef": "cachem",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "1.1.0"
       }
     },
     "cli": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "cli",
         "Title": "Helpers for Developing Command Line Interfaces",
@@ -256,12 +312,19 @@
         "Maintainer": "Gábor Csárdi <gabor@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2026-04-09 09:50:18 UTC",
-        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:59 UTC; unix"
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:59 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "cli",
+        "RemotePkgRef": "cli",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "3.6.6"
       }
     },
     "commonmark": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "commonmark",
         "Type": "Package",
@@ -282,12 +345,19 @@
         "Maintainer": "Jeroen Ooms <jeroenooms@gmail.com>",
         "Repository": "RSPM",
         "Date/Publication": "2025-07-07 13:40:02 UTC",
-        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:59 UTC; unix"
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:59 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "commonmark",
+        "RemotePkgRef": "commonmark",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "2.0.0"
       }
     },
     "cpp11": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "cpp11",
         "Title": "A C++11 Interface for R's C Interface",
@@ -311,12 +381,19 @@
         "Maintainer": "Davis Vaughan <davis@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2026-05-06 14:40:12 UTC",
-        "Built": "R 4.5.0; ; 2026-08-12 19:39:36 UTC; unix"
+        "Built": "R 4.5.0; ; 2026-08-12 19:39:36 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "cpp11",
+        "RemotePkgRef": "cpp11",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "0.5.5"
       }
     },
     "crosstalk": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Type": "Package",
         "Package": "crosstalk",
@@ -338,12 +415,19 @@
         "Maintainer": "Carson Sievert <carson@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2025-08-26 23:50:02 UTC",
-        "Built": "R 4.5.0; ; 2026-08-12 19:45:39 UTC; unix"
+        "Built": "R 4.5.0; ; 2026-08-12 19:45:39 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "crosstalk",
+        "RemotePkgRef": "crosstalk",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "1.2.2"
       }
     },
     "digest": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "digest",
         "Authors@R": "c(person(\"Dirk\", \"Eddelbuettel\", role = c(\"aut\", \"cre\"), email = \"edd@debian.org\",\n                    comment = c(ORCID = \"0000-0001-6419-907X\")),\n             person(\"Antoine\", \"Lucas\", role=\"ctb\", comment = c(ORCID = \"0000-0002-8059-9767\")),\n             person(\"Jarek\", \"Tuszynski\", role=\"ctb\"),\n             person(\"Henrik\", \"Bengtsson\", role=\"ctb\", comment = c(ORCID = \"0000-0002-7579-5165\")),\n             person(\"Simon\", \"Urbanek\", role=\"ctb\", comment = c(ORCID = \"0000-0003-2297-1732\")),\n             person(\"Mario\", \"Frasca\", role=\"ctb\"),\n             person(\"Bryan\", \"Lewis\", role=\"ctb\"),\n             person(\"Murray\", \"Stokely\", role=\"ctb\"),\n             person(\"Hannes\", \"Muehleisen\", role=\"ctb\", comment = c(ORCID = \"0000-0001-8552-0029\")),\n             person(\"Duncan\", \"Murdoch\", role=\"ctb\"),\n             person(\"Jim\", \"Hester\", role=\"ctb\", comment = c(ORCID = \"0000-0002-2739-7082\")),\n             person(\"Wush\", \"Wu\", role=\"ctb\", comment = c(ORCID = \"0000-0001-5180-0567\")),\n             person(\"Qiang\", \"Kou\", role=\"ctb\", comment = c(ORCID = \"0000-0001-6786-5453\")),\n             person(\"Thierry\", \"Onkelinx\", role=\"ctb\", comment = c(ORCID = \"0000-0001-8804-4216\")),\n             person(\"Michel\", \"Lang\", role=\"ctb\", comment = c(ORCID = \"0000-0001-9754-0393\")),\n             person(\"Viliam\", \"Simko\", role=\"ctb\"),\n             person(\"Kurt\", \"Hornik\", role=\"ctb\", comment = c(ORCID = \"0000-0003-4198-9911\")),\n             person(\"Radford\", \"Neal\", role=\"ctb\", comment = c(ORCID = \"0000-0002-2473-3407\")),\n             person(\"Kendon\", \"Bell\", role=\"ctb\", comment = c(ORCID = \"0000-0002-9093-8312\")),\n             person(\"Matthew\", \"de Queljoe\", role=\"ctb\"),\n             person(\"Dmitry\", \"Selivanov\", role=\"ctb\", comment = c(ORCID = \"0000-0003-0492-6647\")),\n             person(\"Ion\", \"Suruceanu\", role=\"ctb\", comment = c(ORCID = \"0009-0005-6446-4909\")),\n             person(\"Bill\", \"Denney\", role=\"ctb\", comment = c(ORCID = \"0000-0002-5759-428X\")),\n             person(\"Dirk\", \"Schumacher\", role=\"ctb\"),\n             person(\"András\", \"Svraka\", role=\"ctb\", comment = c(ORCID = \"0009-0008-8480-1329\")),\n             person(\"Sergey\", \"Fedorov\", role=\"ctb\", comment = c(ORCID = \"0000-0002-5970-7233\")),\n             person(\"Will\", \"Landau\", role=\"ctb\", comment = c(ORCID = \"0000-0003-1878-3253\")),\n             person(\"Floris\", \"Vanderhaeghe\", role=\"ctb\", comment = c(ORCID = \"0000-0002-6378-6229\")),\n             person(\"Kevin\", \"Tappe\", role=\"ctb\"),\n             person(\"Harris\", \"McGehee\", role=\"ctb\"),\n             person(\"Tim\", \"Mastny\", role=\"ctb\"),\n             person(\"Aaron\", \"Peikert\", role=\"ctb\", comment = c(ORCID = \"0000-0001-7813-818X\")),\n             person(\"Mark\", \"van der Loo\", role=\"ctb\", comment = c(ORCID = \"0000-0002-9807-4686\")),\n             person(\"Chris\", \"Muir\", role=\"ctb\", comment = c(ORCID = \"0000-0003-2555-3878\")),\n             person(\"Moritz\", \"Beller\", role=\"ctb\", comment = c(ORCID = \"0000-0003-4852-0526\")),\n             person(\"Sebastian\", \"Campbell\", role=\"ctb\", comment = c(ORCID = \"0009-0000-5948-4503\")),\n             person(\"Winston\", \"Chang\", role=\"ctb\", comment = c(ORCID = \"0000-0002-1576-2126\")),\n             person(\"Dean\", \"Attali\", role=\"ctb\", comment = c(ORCID = \"0000-0002-5645-3493\")),\n             person(\"Michael\", \"Chirico\", role=\"ctb\", comment = c(ORCID = \"0000-0003-0787-087X\")),\n             person(\"Kevin\", \"Ushey\", role=\"ctb\", comment = c(ORCID = \"0000-0003-2880-7407\")),\n             person(\"Carl\", \"Pearson\", role=\"ctb\", comment = c(ORCID = \"0000-0003-0701-7860\")))",
@@ -365,12 +449,19 @@
         "Maintainer": "Dirk Eddelbuettel <edd@debian.org>",
         "Repository": "RSPM",
         "Date/Publication": "2025-11-19 13:20:08 UTC",
-        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:35 UTC; unix"
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:35 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "digest",
+        "RemotePkgRef": "digest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "0.6.39"
       }
     },
     "evaluate": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Type": "Package",
         "Package": "evaluate",
@@ -393,12 +484,19 @@
         "Maintainer": "Hadley Wickham <hadley@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2025-08-27 16:40:02 UTC",
-        "Built": "R 4.5.0; ; 2026-08-12 19:39:36 UTC; unix"
+        "Built": "R 4.5.0; ; 2026-08-12 19:39:36 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "evaluate",
+        "RemotePkgRef": "evaluate",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "1.0.5"
       }
     },
     "farver": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Type": "Package",
         "Package": "farver",
@@ -419,12 +517,19 @@
         "Maintainer": "Thomas Lin Pedersen <thomas.pedersen@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2024-05-13 09:33:09 UTC",
-        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:47 UTC; unix"
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:47 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "farver",
+        "RemotePkgRef": "farver",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "2.1.2"
       }
     },
     "fastmap": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "fastmap",
         "Title": "Fast Data Structures",
@@ -443,12 +548,19 @@
         "Maintainer": "Winston Chang <winston@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2024-05-15 09:00:07 UTC",
-        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:36 UTC; unix"
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:36 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "fastmap",
+        "RemotePkgRef": "fastmap",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "1.2.0"
       }
     },
     "fontawesome": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Type": "Package",
         "Package": "fontawesome",
@@ -472,12 +584,19 @@
         "Maintainer": "Richard Iannone <rich@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2024-11-16 17:30:02 UTC",
-        "Built": "R 4.5.0; ; 2026-08-12 19:46:33 UTC; unix"
+        "Built": "R 4.5.0; ; 2026-08-12 19:46:33 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "fontawesome",
+        "RemotePkgRef": "fontawesome",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "0.5.3"
       }
     },
     "fs": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "fs",
         "Title": "Cross-Platform File System Operations Based on 'libuv'",
@@ -505,12 +624,19 @@
         "Maintainer": "Jeroen Ooms <jeroenooms@gmail.com>",
         "Repository": "RSPM",
         "Date/Publication": "2026-04-18 15:10:02 UTC",
-        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:40:09 UTC; unix"
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:40:09 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "fs",
+        "RemotePkgRef": "fs",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "2.1.0"
       }
     },
     "ggplot2": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "ggplot2",
         "Title": "Create Elegant Data Visualisations Using the Grammar of Graphics",
@@ -538,12 +664,19 @@
         "Maintainer": "Thomas Lin Pedersen <thomas.pedersen@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2026-04-22 09:10:03 UTC",
-        "Built": "R 4.5.0; ; 2026-08-12 19:48:12 UTC; unix"
+        "Built": "R 4.5.0; ; 2026-08-12 19:48:12 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "ggplot2",
+        "RemotePkgRef": "ggplot2",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "4.0.3"
       }
     },
     "glue": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "glue",
         "Title": "Interpreted String Literals",
@@ -569,12 +702,19 @@
         "Maintainer": "Jennifer Bryan <jenny@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2026-04-17 05:11:01 UTC",
-        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:59 UTC; unix"
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:59 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "glue",
+        "RemotePkgRef": "glue",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "1.8.1"
       }
     },
     "gtable": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "gtable",
         "Title": "Arrange 'Grobs' in Tables",
@@ -599,12 +739,19 @@
         "Maintainer": "Thomas Lin Pedersen <thomas.pedersen@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2024-10-25 13:20:02 UTC",
-        "Built": "R 4.5.0; ; 2026-08-12 19:45:20 UTC; unix"
+        "Built": "R 4.5.0; ; 2026-08-12 19:45:20 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "gtable",
+        "RemotePkgRef": "gtable",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "0.3.6"
       }
     },
     "highr": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "highr",
         "Type": "Package",
@@ -627,12 +774,19 @@
         "Maintainer": "Yihui Xie <xie@yihui.name>",
         "Repository": "RSPM",
         "Date/Publication": "2026-03-06 06:30:47 UTC",
-        "Built": "R 4.5.0; ; 2026-08-12 19:42:45 UTC; unix"
+        "Built": "R 4.5.0; ; 2026-08-12 19:42:45 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "highr",
+        "RemotePkgRef": "highr",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "0.12"
       }
     },
     "htmltools": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Type": "Package",
         "Package": "htmltools",
@@ -658,12 +812,19 @@
         "Maintainer": "Carson Sievert <carson@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2025-12-04 11:50:09 UTC",
-        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:43:20 UTC; unix"
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:43:20 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "htmltools",
+        "RemotePkgRef": "htmltools",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "0.5.9"
       }
     },
     "htmlwidgets": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Type": "Package",
         "Package": "htmlwidgets",
@@ -686,12 +847,19 @@
         "Maintainer": "Carson Sievert <carson@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2023-12-06 06:00:06 UTC",
-        "Built": "R 4.5.0; ; 2026-08-12 19:48:44 UTC; unix"
+        "Built": "R 4.5.0; ; 2026-08-12 19:48:44 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "htmlwidgets",
+        "RemotePkgRef": "htmlwidgets",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "1.6.4"
       }
     },
     "httpuv": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Type": "Package",
         "Package": "httpuv",
@@ -719,12 +887,19 @@
         "Maintainer": "Winston Chang <winston@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2026-03-18 06:12:59 UTC",
-        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:47:27 UTC; unix"
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:47:27 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "httpuv",
+        "RemotePkgRef": "httpuv",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "1.6.17"
       }
     },
     "isoband": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "isoband",
         "Title": "Generate Isolines and Isobands from Regularly Spaced Elevation\nGrids",
@@ -750,12 +925,19 @@
         "Maintainer": "Thomas Lin Pedersen <thomas.pedersen@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2025-12-07 06:10:07 UTC",
-        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:43:18 UTC; unix"
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:43:18 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "isoband",
+        "RemotePkgRef": "isoband",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "0.3.0"
       }
     },
     "jquerylib": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "jquerylib",
         "Title": "Obtain 'jQuery' as an HTML Dependency Object",
@@ -774,12 +956,19 @@
         "Maintainer": "Carson Sievert <carson@rstudio.com>",
         "Repository": "RSPM",
         "Date/Publication": "2021-04-26 17:10:02 UTC",
-        "Built": "R 4.5.0; ; 2026-08-12 19:44:37 UTC; unix"
+        "Built": "R 4.5.0; ; 2026-08-12 19:44:37 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "jquerylib",
+        "RemotePkgRef": "jquerylib",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "0.1.4"
       }
     },
     "jsonlite": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "jsonlite",
         "Version": "2.0.0",
@@ -800,12 +989,19 @@
         "Author": "Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>),\n  Duncan Temple Lang [ctb],\n  Lloyd Hilaiel [cph] (author of bundled libyajl)",
         "Repository": "RSPM",
         "Date/Publication": "2025-03-27 06:40:02 UTC",
-        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:47 UTC; unix"
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:47 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "jsonlite",
+        "RemotePkgRef": "jsonlite",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "2.0.0"
       }
     },
     "knitr": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "knitr",
         "Type": "Package",
@@ -830,12 +1026,19 @@
         "Maintainer": "Yihui Xie <xie@yihui.name>",
         "Repository": "RSPM",
         "Date/Publication": "2026-09-06 19:10:02 UTC",
-        "Built": "R 4.5.0; ; 2026-09-07 03:49:08 UTC; unix"
+        "Built": "R 4.5.0; ; 2026-09-07 03:49:08 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "knitr",
+        "RemotePkgRef": "knitr",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "1.52"
       }
     },
     "labeling": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "labeling",
         "Type": "Package",
@@ -853,12 +1056,19 @@
         "Repository": "RSPM",
         "Date/Publication": "2023-08-29 22:20:02 UTC",
         "Encoding": "UTF-8",
-        "Built": "R 4.5.0; ; 2026-08-12 19:39:59 UTC; unix"
+        "Built": "R 4.5.0; ; 2026-08-12 19:39:59 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "labeling",
+        "RemotePkgRef": "labeling",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "0.4.3"
       }
     },
     "later": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Type": "Package",
         "Package": "later",
@@ -886,12 +1096,19 @@
         "Maintainer": "Charlie Gao <charlie.gao@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2026-03-05 07:50:02 UTC",
-        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:43:01 UTC; unix"
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:43:01 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "later",
+        "RemotePkgRef": "later",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "1.4.8"
       }
     },
     "lazyeval": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "lazyeval",
         "Version": "0.2.3",
@@ -912,12 +1129,19 @@
         "Repository": "RSPM",
         "Date/Publication": "2026-04-04 05:10:53 UTC",
         "Encoding": "UTF-8",
-        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:41:35 UTC; unix"
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:41:35 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "lazyeval",
+        "RemotePkgRef": "lazyeval",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "0.2.3"
       }
     },
     "lifecycle": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "lifecycle",
         "Title": "Manage the Life Cycle of your Package Functions",
@@ -941,12 +1165,19 @@
         "Maintainer": "Lionel Henry <lionel@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2026-01-08 08:00:02 UTC",
-        "Built": "R 4.5.0; ; 2026-08-12 19:43:17 UTC; unix"
+        "Built": "R 4.5.0; ; 2026-08-12 19:43:17 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "lifecycle",
+        "RemotePkgRef": "lifecycle",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "1.0.5"
       }
     },
     "magrittr": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Type": "Package",
         "Package": "magrittr",
@@ -970,12 +1201,19 @@
         "Maintainer": "Lionel Henry <lionel@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2026-04-04 08:00:02 UTC",
-        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:35 UTC; unix"
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:35 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "magrittr",
+        "RemotePkgRef": "magrittr",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "2.0.5"
       }
     },
     "memoise": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "memoise",
         "Title": "'Memoisation' of Functions",
@@ -995,12 +1233,19 @@
         "Maintainer": "Winston Chang <winston@rstudio.com>",
         "Repository": "RSPM",
         "Date/Publication": "2021-11-26 16:11:10 UTC",
-        "Built": "R 4.5.0; ; 2026-08-12 19:44:15 UTC; unix"
+        "Built": "R 4.5.0; ; 2026-08-12 19:44:15 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "memoise",
+        "RemotePkgRef": "memoise",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "2.0.1"
       }
     },
     "mime": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "mime",
         "Type": "Package",
@@ -1020,12 +1265,19 @@
         "Maintainer": "Yihui Xie <xie@yihui.name>",
         "Repository": "RSPM",
         "Date/Publication": "2025-03-17 20:20:02 UTC",
-        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:47 UTC; unix"
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:47 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "mime",
+        "RemotePkgRef": "mime",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "0.13"
       }
     },
     "otel": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "otel",
         "Title": "OpenTelemetry R API",
@@ -1048,12 +1300,19 @@
         "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
         "Repository": "RSPM",
         "Date/Publication": "2025-08-29 13:30:07 UTC",
-        "Built": "R 4.5.0; ; 2026-08-12 19:39:38 UTC; unix"
+        "Built": "R 4.5.0; ; 2026-08-12 19:39:38 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "otel",
+        "RemotePkgRef": "otel",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "0.2.0"
       }
     },
     "promises": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Type": "Package",
         "Package": "promises",
@@ -1080,12 +1339,19 @@
         "Maintainer": "Barret Schloerke <barret@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2025-11-01 06:30:02 UTC",
-        "Built": "R 4.5.0; ; 2026-08-12 19:45:30 UTC; unix"
+        "Built": "R 4.5.0; ; 2026-08-12 19:45:30 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "promises",
+        "RemotePkgRef": "promises",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "1.5.0"
       }
     },
     "rappdirs": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Type": "Package",
         "Package": "rappdirs",
@@ -1110,12 +1376,19 @@
         "Maintainer": "Hadley Wickham <hadley@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2026-01-17 08:40:02 UTC",
-        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:36 UTC; unix"
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:36 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "rappdirs",
+        "RemotePkgRef": "rappdirs",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "0.3.4"
       }
     },
     "rlang": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "rlang",
         "Version": "1.3.0",
@@ -1143,12 +1416,19 @@
         "Maintainer": "Lionel Henry <lionel@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2026-07-05 08:40:02 UTC",
-        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:36 UTC; unix"
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:36 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "rlang",
+        "RemotePkgRef": "rlang",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "1.3.0"
       }
     },
     "rmarkdown": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Type": "Package",
         "Package": "rmarkdown",
@@ -1173,12 +1453,19 @@
         "Maintainer": "Yihui Xie <xie@yihui.name>",
         "Repository": "RSPM",
         "Date/Publication": "2026-09-01 13:10:02 UTC",
-        "Built": "R 4.5.0; ; 2026-09-02 03:51:18 UTC; unix"
+        "Built": "R 4.5.0; ; 2026-09-02 03:51:18 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "rmarkdown",
+        "RemotePkgRef": "rmarkdown",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "2.32"
       }
     },
     "sass": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Type": "Package",
         "Package": "sass",
@@ -1202,12 +1489,19 @@
         "Maintainer": "Carson Sievert <carson@rstudio.com>",
         "Repository": "RSPM",
         "Date/Publication": "2025-04-11 19:50:02 UTC",
-        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:45:56 UTC; unix"
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:45:56 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "sass",
+        "RemotePkgRef": "sass",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "0.4.10"
       }
     },
     "scales": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "scales",
         "Title": "Scale Functions for Visualization",
@@ -1232,12 +1526,19 @@
         "Maintainer": "Thomas Lin Pedersen <thomas.pedersen@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2025-04-24 11:00:02 UTC",
-        "Built": "R 4.5.0; ; 2026-08-12 19:45:27 UTC; unix"
+        "Built": "R 4.5.0; ; 2026-08-12 19:45:27 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "scales",
+        "RemotePkgRef": "scales",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "1.4.0"
       }
     },
     "shiny": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Type": "Package",
         "Package": "shiny",
@@ -1262,12 +1563,19 @@
         "Maintainer": "Carson Sievert <carson@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2026-06-21 14:10:08 UTC",
-        "Built": "R 4.5.0; ; 2026-08-12 19:49:02 UTC; unix"
+        "Built": "R 4.5.0; ; 2026-08-12 19:49:02 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "shiny",
+        "RemotePkgRef": "shiny",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "1.14.0"
       }
     },
     "sourcetools": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "sourcetools",
         "Type": "Package",
@@ -1287,12 +1595,19 @@
         "Author": "Kevin Ushey [aut, cre]",
         "Repository": "RSPM",
         "Date/Publication": "2026-03-28 06:10:35 UTC",
-        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:59 UTC; unix"
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:39:59 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "sourcetools",
+        "RemotePkgRef": "sourcetools",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "0.1.7-2"
       }
     },
     "stringi": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "stringi",
         "Version": "1.8.9",
@@ -1317,12 +1632,19 @@
         "License_is_FOSS": "yes",
         "Repository": "RSPM",
         "Date/Publication": "2026-08-04 16:30:03 UTC",
-        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:40:08 UTC; unix"
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:40:08 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "stringi",
+        "RemotePkgRef": "stringi",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "1.8.9"
       }
     },
     "stringr": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "stringr",
         "Title": "Simple, Consistent Wrappers for Common String Operations",
@@ -1348,12 +1670,19 @@
         "Maintainer": "Hadley Wickham <hadley@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2025-11-04 14:00:02 UTC",
-        "Built": "R 4.5.0; ; 2026-08-12 19:47:23 UTC; unix"
+        "Built": "R 4.5.0; ; 2026-08-12 19:47:23 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "stringr",
+        "RemotePkgRef": "stringr",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "1.6.0"
       }
     },
     "tinytex": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "tinytex",
         "Type": "Package",
@@ -1374,12 +1703,19 @@
         "Maintainer": "Yihui Xie <xie@yihui.name>",
         "Repository": "RSPM",
         "Date/Publication": "2026-09-17 20:40:02 UTC",
-        "Built": "R 4.5.0; ; 2026-09-18 03:52:36 UTC; unix"
+        "Built": "R 4.5.0; ; 2026-09-18 03:52:36 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "tinytex",
+        "RemotePkgRef": "tinytex",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "0.61"
       }
     },
     "vctrs": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "vctrs",
         "Title": "Vector Helpers",
@@ -1407,12 +1743,19 @@
         "Maintainer": "Davis Vaughan <davis@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2026-04-11 06:20:03 UTC",
-        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:45:19 UTC; unix"
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:45:19 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "vctrs",
+        "RemotePkgRef": "vctrs",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "0.7.3"
       }
     },
     "viridisLite": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "viridisLite",
         "Type": "Package",
@@ -1434,12 +1777,19 @@
         "Author": "Simon Garnier [aut, cre],\n  Noam Ross [ctb, cph],\n  Bob Rudis [ctb, cph],\n  Marco Sciaini [ctb, cph],\n  Antônio Pedro Camargo [ctb, cph],\n  Cédric Scherer [ctb, cph]",
         "Repository": "RSPM",
         "Date/Publication": "2026-02-04 06:40:10 UTC",
-        "Built": "R 4.5.0; ; 2026-08-12 19:41:30 UTC; unix"
+        "Built": "R 4.5.0; ; 2026-08-12 19:41:30 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "viridisLite",
+        "RemotePkgRef": "viridisLite",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "0.4.3"
       }
     },
     "withr": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "withr",
         "Title": "Run Code 'With' Temporarily Modified Global State",
@@ -1464,12 +1814,19 @@
         "Maintainer": "Lionel Henry <lionel@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2026-06-19 05:30:02 UTC",
-        "Built": "R 4.5.0; ; 2026-08-12 19:41:30 UTC; unix"
+        "Built": "R 4.5.0; ; 2026-08-12 19:41:30 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "withr",
+        "RemotePkgRef": "withr",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "3.0.3"
       }
     },
     "xfun": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "xfun",
         "Type": "Package",
@@ -1492,12 +1849,19 @@
         "Maintainer": "Yihui Xie <xie@yihui.name>",
         "Repository": "RSPM",
         "Date/Publication": "2026-09-16 18:30:02 UTC",
-        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-09-17 04:04:24 UTC; unix"
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-09-17 04:04:24 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "xfun",
+        "RemotePkgRef": "xfun",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "0.61"
       }
     },
     "xtable": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Package": "xtable",
         "Version": "1.8-8",
@@ -1518,12 +1882,19 @@
         "Author": "David B. Dahl [aut],\n  David Scott [aut, cre],\n  Charles Roosen [aut],\n  Arni Magnusson [aut],\n  Jonathan Swinton [aut],\n  Ajay Shah [ctb],\n  Arne Henningsen [ctb],\n  Benno Puetz [ctb],\n  Bernhard Pfaff [ctb],\n  Claudio Agostinelli [ctb],\n  Claudius Loehnert [ctb],\n  David Mitchell [ctb],\n  David Whiting [ctb],\n  Fernando da Rosa [ctb],\n  Guido Gay [ctb],\n  Guido Schulz [ctb],\n  Ian Fellows [ctb],\n  Jeff Laake [ctb],\n  John Walker [ctb],\n  Jun Yan [ctb],\n  Liviu Andronic [ctb],\n  Markus Loecher [ctb],\n  Martin Gubri [ctb],\n  Matthieu Stigler [ctb],\n  Robert Castelo [ctb],\n  Seth Falcon [ctb],\n  Stefan Edwards [ctb],\n  Sven Garbade [ctb],\n  Uwe Ligges [ctb]",
         "Date/Publication": "2026-02-22 11:20:02 UTC",
         "Encoding": "UTF-8",
-        "Built": "R 4.5.0; ; 2026-08-12 19:41:24 UTC; unix"
+        "Built": "R 4.5.0; ; 2026-08-12 19:41:24 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "xtable",
+        "RemotePkgRef": "xtable",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "1.8-8"
       }
     },
     "yaml": {
-      "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Source": "RSPM",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
       "description": {
         "Type": "Package",
         "Package": "yaml",
@@ -1546,7 +1917,14 @@
         "Maintainer": "Hadley Wickham <hadley@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2025-12-10 07:00:01 UTC",
-        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:41:24 UTC; unix"
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2026-08-12 19:41:24 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "yaml",
+        "RemotePkgRef": "yaml",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteReposName": "RSPM",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "2.3.12"
       }
     }
   },
