@@ -29,7 +29,7 @@ variables:
 
 steps:
   - task: Bash@3
-    displayName: 'Build, test, and deploy to Connect'
+    displayName: 'Build and deploy to Connect'
     inputs:
       targetType: inline
       script: |
