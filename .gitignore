@@ -1,8 +1,13 @@
 .Rproj.user
 .Rhistory
-.Rdata
+.RData
 .httr-oauth
 .DS_Store
+
+# Per-build artifacts the Azure pipeline creates in the workspace (non-root flow):
+# .rlib is the user R library, .bin holds the static jq.
+.rlib/
+.bin/
 
 # CI/CD runtime artifacts produced by deploy-to-connect.sh — never commit these.
 # cookie.txt holds a Connect session cookie; bundle.tar.gz is the content bundle.
