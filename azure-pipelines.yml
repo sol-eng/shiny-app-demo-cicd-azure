@@ -44,7 +44,12 @@ steps:
         # library. Removing it sends installs to R_LIBS_USER.
         rm -f .Rprofile
         # RSPM __linux__/noble serves prebuilt binaries -> no compilation, no -dev headers
-        Rscript -e '.libPaths(Sys.getenv("R_LIBS_USER")); options(repos=c(CRAN="https://packagemanager.posit.co/cran/__linux__/noble/latest")); install.packages(c("shiny","jsonlite","ggplot2","stringr","DT","rsconnect"))'
+        # testthat is a CI-only test tool (used by run-tests.R below); it is installed into the
+        # user library alongside the app's runtime deps but is NOT part of the deployed manifest.
+        Rscript -e '.libPaths(Sys.getenv("R_LIBS_USER")); options(repos=c(CRAN="https://packagemanager.posit.co/cran/__linux__/noble/latest")); install.packages(c("shiny","jsonlite","ggplot2","stringr","DT","rsconnect","testthat"))'
+        # Gate the deploy on fast unit tests of the app's data functions (no browser/network).
+        # A test failure exits non-zero and, under `set -e`, stops the job before writeManifest/deploy.
+        Rscript -e '.libPaths(Sys.getenv("R_LIBS_USER")); source("run-tests.R")'
         Rscript -e '.libPaths(Sys.getenv("R_LIBS_USER")); options(repos=c(CRAN="https://packagemanager.posit.co/cran/__linux__/noble/latest")); rsconnect::writeManifest(Sys.getenv("CONTENT_DIRECTORY"))'
         chmod +x ./deploy-to-connect.sh
         /bin/bash deploy-to-connect.sh

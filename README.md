@@ -4,9 +4,10 @@ An example of programmatic deployment: an Azure Pipeline that builds and deploys
 to [Posit Connect](https://posit.co/products/enterprise/connect/).
 
 The pipeline (`azure-pipelines.yml`) installs the app's R package dependencies from
-[Posit Package Manager](https://packagemanager.posit.co/), writes a `manifest.json` with
-`rsconnect::writeManifest()`, and deploys the bundle through the Connect Server API with
-`deploy-to-connect.sh`.
+[Posit Package Manager](https://packagemanager.posit.co/), runs a fast unit-test gate over the
+app's data functions (`run-tests.R` — a failing test aborts the pipeline before any deploy), writes
+a `manifest.json` with `rsconnect::writeManifest()`, and deploys the bundle through the Connect
+Server API with `deploy-to-connect.sh`.
 
 > **Why this example lives on GitHub.** Azure DevOps public projects are retired, so a public Azure
 > DevOps project can no longer host a customer-facing example. This public example therefore lives on
