@@ -15,7 +15,7 @@ Server API with `deploy-to-connect.sh`.
 
 ## Setup
 
-In Azure DevOps, create a variable group named **`RSC`** (**Pipelines > Library**) and add
+In Azure DevOps, create a variable group named **`CONNECT`** (**Pipelines > Library**) and add
 (mark `CONNECT_API_KEY` as a secret so it is never printed or stored in the repo):
 
 | Variable | Value |

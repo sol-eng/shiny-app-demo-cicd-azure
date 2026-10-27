@@ -1,6 +1,6 @@
 # Azure Pipelines — deploy a Shiny app to Posit Connect
 #
-# Auth: Connect API key. Create a variable group named "RSC" (Pipelines > Library) holding:
+# Auth: Connect API key. Create a variable group named "CONNECT" (Pipelines > Library) holding:
 #   CONNECT_SERVER   base URL with a trailing slash, e.g. https://connect.example.com/
 #   CONNECT_API_KEY  Connect API key, marked secret (never committed to the repo)
 #
@@ -21,7 +21,7 @@ pool:
 container: posit/r-base:4.5.1-noble
 
 variables:
-  - group: 'RSC'
+  - group: 'CONNECT'
   - name: CONTENT_DIRECTORY
     value: app
   - name: UNIQ_NAME
